@@ -1,0 +1,98 @@
+
+.max-width{
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-logo{
+  height: 27px;
+  max-width: 140px;
+  margin-right: 24px;
+}
+
+.header-components{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+.center-comp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-input, .search-input{
+  border: none;
+  font-size: 14px;
+  margin: 0px 1rem 0px 0.5rem;
+  outline: none;
+  width: 80%;
+}
+
+.input-box{
+  display: flex;
+  height: 54px;
+  align-items: center;
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+}
+
+.location-box{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.location-icon{
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ff7e8b;
+}
+
+.search-icon{
+  margin: 0 8px;
+    font-size: 20px;
+}
+
+input{
+  color: #828282;
+}
+
+.separator{
+  width: 0px;
+  height: 30px;
+  border: 0.05rem solid rgb(207, 207, 207);
+}
+
+.profile-container{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+
+.profile-image{
+  height: 40px;
+  border-radius: 50%;
+}
+.profile-username{
+  font-weight: 600;
+  font-size: 16px;
+}
+.profile-options-icon{
+  font-size: 20px;
+}
